@@ -1,8 +1,8 @@
 function multiplicarArray(arrNubmer) {
     const arrResult = [];
 
-    for (let index in arrNubmer) {
-        arrResult.push(arrNubmer[index] * 3);
+    for (let i = 0; i < arrNubmer.length; i++) {
+        arrResult.push(arrNubmer[i] * 3);
     }
 
     return arrResult;
